@@ -1,18 +1,25 @@
 
 body {
-    font-family: 'Ropa Sans', sans-serif;
-    
-    
+    font-family: 'Ropa Sans', sans-serif;   
 }
 .header{
     background-color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
     height: 10vh;
     border-bottom: solid 4px rgb(0 0 0 / 10%) ;  
        
 }
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 main{
     max-width: 1200px;
     width: 100%;
@@ -39,7 +46,6 @@ margin-right: 2px;
 margin-left: 20px;
 }
 .menu{
-    padding: 5px 5%;
     margin-right: 20px;
 }
 
@@ -52,6 +58,9 @@ margin-left: 20px;
     margin-top: 10px;
 
 }
+
+
+
 @media (max-width: 400px) {
     .banner{
         width: 100%;
